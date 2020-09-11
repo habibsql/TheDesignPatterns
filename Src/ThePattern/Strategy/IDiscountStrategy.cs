@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ThePattern.Stratigy
 {
-    public interface IDiscountStratigy
+    public interface IDiscountStrategy
     {
         long Discount();
     }

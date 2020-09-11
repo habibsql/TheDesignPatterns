@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ThePattern.Stratigy
 {
-    public class FlatRateDiscountStratigy : IDiscountStratigy
+    public class FlatRateDiscountStratigy : IDiscountStrategy
     {
         private const long FIXED_AMOUNT = 300;
         private readonly long _price;

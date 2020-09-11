@@ -4,13 +4,13 @@ using System.Text;
 
 namespace ThePattern.Stratigy
 {
-    public class PercentageLimitDiscountStratigy : IDiscountStratigy
+    public class PercentageLimitDiscountStrategy : IDiscountStrategy
     {
         private readonly long _price;
         private const long DiscountAmountLimit = 300;
         private const decimal DiscountRateInPercent = 15; //15%
 
-        public PercentageLimitDiscountStratigy(long price)
+        public PercentageLimitDiscountStrategy(long price)
         {
             _price = price;
         }

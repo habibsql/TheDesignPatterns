@@ -5,13 +5,13 @@ using Xunit;
 
 namespace ThePattern.Stratigy
 {
-    public class DiscountStartigyTests
+    public class DiscountStartegyTests
     {
         private FlatRateDiscountStratigy flatRateDiscountStratigy;
-        private PercentageDiscountStratigy percentageDiscountStratigy;
-        private PercentageLimitDiscountStratigy percentageLimitDiscountStratigy;
+        private PercentageDiscountStrategy percentageDiscountStratigy;
+        private PercentageLimitDiscountStrategy percentageLimitDiscountStratigy;
 
-        public DiscountStartigyTests()
+        public DiscountStartegyTests()
         {
         }
 
@@ -32,7 +32,7 @@ namespace ThePattern.Stratigy
         {
             long price = 1000;
 
-            percentageDiscountStratigy = new PercentageDiscountStratigy(price);
+            percentageDiscountStratigy = new PercentageDiscountStrategy(price);
 
             long discount = percentageDiscountStratigy.Discount();
 
@@ -44,7 +44,7 @@ namespace ThePattern.Stratigy
         {
             long price = 1800;
 
-            percentageLimitDiscountStratigy = new PercentageLimitDiscountStratigy(price);
+            percentageLimitDiscountStratigy = new PercentageLimitDiscountStrategy(price);
 
             long discount = percentageLimitDiscountStratigy.Discount();
 
@@ -56,7 +56,7 @@ namespace ThePattern.Stratigy
         {
             long price = 3000;
 
-            percentageLimitDiscountStratigy = new PercentageLimitDiscountStratigy(price);
+            percentageLimitDiscountStratigy = new PercentageLimitDiscountStrategy(price);
 
             long discount = percentageLimitDiscountStratigy.Discount();
 

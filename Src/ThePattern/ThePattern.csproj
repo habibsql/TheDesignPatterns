@@ -13,4 +13,27 @@
     <PackageReference Include="coverlet.collector" Version="1.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Mediator\" />
+    <Folder Include="Factory\" />
+    <Folder Include="ChainOfResponsibility\" />
+    <Folder Include="Facade\" />
+    <Folder Include="Builder\" />
+    <Folder Include="Adapter\" />
+    <Folder Include="Momento\" />
+    <Folder Include="CQRS\" />
+    <Folder Include="EventSourcing\" />
+    <Folder Include="UnitOfWork\" />
+    <Folder Include="Visitor\" />
+    <Folder Include="NullObject\" />
+    <Folder Include="TemplateMethod\" />
+    <Folder Include="Repository\" />
+    <Folder Include="Specification\" />
+    <Folder Include="Proxy\" />
+    <Folder Include="State\" />
+    <Folder Include="Observer\" />
+    <Folder Include="Decorator\" />
+    <Folder Include="Singleton\" />
+  </ItemGroup>
+
 </Project>

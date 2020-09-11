@@ -4,11 +4,11 @@ using System.Text;
 
 namespace ThePattern.Stratigy
 {
-    public class DiscountStratigyProvider : IDiscountStratigyProvider
+    public class DiscountStrategyProvider : IDiscountStrategyProvider
     {
-        public IDiscountStratigy CreateDiscountStratigy(int couponCode, long productPrice)
+        public IDiscountStrategy CreateDiscountStratigy(int couponCode, long productPrice)
         {
-            IDiscountStratigy stratigy;
+            IDiscountStrategy stratigy;
 
             switch (couponCode)
             {
@@ -16,10 +16,10 @@ namespace ThePattern.Stratigy
                     stratigy = new FlatRateDiscountStratigy(productPrice);
                     break;
                 case (int)CouponCodes.PercentageCode:
-                    stratigy = new PercentageDiscountStratigy(productPrice);
+                    stratigy = new PercentageDiscountStrategy(productPrice);
                     break;
                 case (int)CouponCodes.PercentageLimitCode:
-                    stratigy = new PercentageLimitDiscountStratigy(productPrice);
+                    stratigy = new PercentageLimitDiscountStrategy(productPrice);
                     break;
                 default:
                     throw new ApplicationException($"Sorry! {couponCode} is not a valid Coupon code.");
