@@ -7,6 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Proxy\ReadMe.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Proxy\ReadMe.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0" />
     <PackageReference Include="xunit" Version="2.4.0" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
@@ -16,23 +24,16 @@
   <ItemGroup>
     <Folder Include="Factory\" />
     <Folder Include="ChainOfResponsibility\" />
-    <Folder Include="Facade\" />
-    <Folder Include="Builder\" />
-    <Folder Include="Adapter\" />
-    <Folder Include="Momento\" />
     <Folder Include="CQRS\" />
     <Folder Include="EventSourcing\" />
+    <Folder Include="ApiGateway\" />
+    <Folder Include="Composite\" />
+    <Folder Include="Command\" />
     <Folder Include="UnitOfWork\" />
-    <Folder Include="Visitor\" />
-    <Folder Include="NullObject\" />
     <Folder Include="TemplateMethod\" />
-    <Folder Include="Repository\" />
     <Folder Include="Specification\" />
-    <Folder Include="Proxy\" />
     <Folder Include="State\" />
     <Folder Include="Observer\" />
-    <Folder Include="Decorator\" />
-    <Folder Include="Singleton\" />
   </ItemGroup>
 
 </Project>
