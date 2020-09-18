@@ -21,19 +21,4 @@
     <PackageReference Include="coverlet.collector" Version="1.0.1" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Factory\" />
-    <Folder Include="ChainOfResponsibility\" />
-    <Folder Include="CQRS\" />
-    <Folder Include="EventSourcing\" />
-    <Folder Include="ApiGateway\" />
-    <Folder Include="Composite\" />
-    <Folder Include="Command\" />
-    <Folder Include="UnitOfWork\" />
-    <Folder Include="TemplateMethod\" />
-    <Folder Include="Specification\" />
-    <Folder Include="State\" />
-    <Folder Include="Observer\" />
-  </ItemGroup>
-
 </Project>
