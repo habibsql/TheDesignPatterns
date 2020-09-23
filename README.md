@@ -1,6 +1,6 @@
-# ThePattern
-Demonastrate various design patterns 
-1. Stratigy
+# The Design Pattern
+Demonastrate design patterns that can be use in real life application/api development
+1. Strategy
 2. Facade
 3. Factory
 4. Singleton
