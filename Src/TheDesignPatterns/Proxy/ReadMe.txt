@@ -7,7 +7,3 @@
 Benefits:
 - Allow something befor or after or both the request gets through the original object.
 - Support lazy initailization.
-
-
-
-
