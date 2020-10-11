@@ -4,19 +4,17 @@ Demonastrate design patterns that can be use in real life application/api develo
 2. Facade
 3. Factory
 4. Singleton
-5. CQRS
-6. Specification
-7. Adapter
-8. Decorator
-9. Proxy
-10. Repository
-11. EventSourcing
-12. Mediator
-13. NullObject
-14. Visitor
-15. ChainOfResponsibility
-16. Builder
-17. Template Method
-18. UnitOfWork
-19. State
-20. Observer
+5. Specification
+6. Adapter
+7. Decorator
+8. Proxy
+9. Repository
+10. Mediator
+11. NullObject
+12. Visitor
+13. ChainOfResponsibility
+14. Builder
+15. Template Method
+16. UnitOfWork
+17. State
+18. Observer
