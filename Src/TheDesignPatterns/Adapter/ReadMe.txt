@@ -6,15 +6,18 @@ Overview:
 
 - Another name is wrapper.
 
-- Match between incompatable interfaces similar to electrical plug/adapters
+- Matches between incompatable interfaces. Very similar to electrical plug/adapters
 
-- Client make a request to the adapter & adapter translates that request on the adaptee using the adaptee interface.
+- Client make a request to the adapter and adapter translates that request on the adaptee using the adaptee interface.
 
-- Actually convert one interface of a class to another clients expect.
+- Actually convert one interface of a class into another interface that clients expect.
+
+- Adapter can be classified in 2 ways i) Class adapter: Implement based on inheritence. 
+  and ii) Object adapter: Implement based on composition.
 
 Benifits:
 
-- Without it 2 different classes can not work together(because of incompatible interface).
+- Without adapter, 2 different classes can not work together(because of incompatible interface).
 
 - Provide features that clients actual need. May be same feature or less.
 

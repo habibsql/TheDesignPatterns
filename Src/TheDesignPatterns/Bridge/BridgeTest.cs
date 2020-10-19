@@ -5,7 +5,7 @@ using Xunit;
 
 namespace TheDesignPatterns.Bridge
 {
-    public class BridgeImplementationTest
+    public class BridgeTest
     {
         [Fact]
         public void ShouldWork()

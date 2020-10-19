@@ -1,7 +1,4 @@
 ﻿using FluentAssertions;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using Xunit;
 
 namespace TheDesignPatterns.Proxy
@@ -9,7 +6,7 @@ namespace TheDesignPatterns.Proxy
     public class ProxyTest
     {
         [Fact]
-        public void ShouldWork()
+        public void ShouldWorkProperlyUsingProxyDesingPattern()
         {
             IAccountService accountService = new ProxyAccountService();
             int todaysIncome = accountService.GetTodaysIncome();

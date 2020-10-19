@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace TheDesignPatterns.NullObject
 {
-
     public interface IMathService
     {
         public int Addition(int x, int y);

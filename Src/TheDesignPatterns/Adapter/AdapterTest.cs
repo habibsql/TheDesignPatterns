@@ -1,12 +1,10 @@
 ﻿using FluentAssertions;
-using System;
 using System.Collections.Generic;
-using System.Text;
 using Xunit;
 
 namespace TheDesignPatterns.Adapter
 {
-    public class AdapterImplementationTest
+    public class AdapterTest
     {
         [Fact]
         public void ShouldWork()

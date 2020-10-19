@@ -1,5 +1,7 @@
 ﻿-------------------------------------------------------------------------------------------
 
+Overview:
+
 - It is a behavioral Design pattern. Invented by GOF.
 
 - A set of policy/stratigy/algorithm defined into objects and those policis 
